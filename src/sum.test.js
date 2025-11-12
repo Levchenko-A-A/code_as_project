@@ -14,6 +14,20 @@ describe("Тесты для фукции Sum", () => {
             expect(sum(61, 43)).toEqual(104);
             expect(sum(21, 17)).toEqual(38);
         });
+        it("Положительные числа", () => {
+            expect(sum(2, 3)).toEqual(5);
+            expect(sum(23, 90)).toEqual(113);
+            expect(sum(56, 1)).toEqual(57);
+            expect(sum(61, 43)).toEqual(104);
+            expect(sum(21, 17)).toEqual(38);
+        });
+        it("Положительные числа", () => {
+            expect(sum(2, 3)).toEqual(5);
+            expect(sum(23, 90)).toEqual(113);
+            expect(sum(56, 1)).toEqual(57);
+            expect(sum(61, 43)).toEqual(104);
+            expect(sum(21, 17)).toEqual(38);
+        });
         it("Отрицательные числа", () => {
             expect(sum(-7, -3)).toEqual(-10);
             expect(sum(-11, 11)).toEqual(0);
