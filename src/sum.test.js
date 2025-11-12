@@ -47,5 +47,17 @@ describe("Тесты для фукции Sum", () => {
             const a = 7, b = 12;
             expect(sum(a, b)).toEqual(sum(b,a));
         });
+        it("Коммутотивность", () => {
+            const a = 7, b = 12;
+            expect(sum(a, b)).toEqual(sum(b,a));
+        });
+        it("Коммутотивность", () => {
+            const a = 7, b = 12;
+            expect(sum(a, b)).toEqual(sum(b,a));
+        });
+        it("Коммутотивность", () => {
+            const a = 7, b = 12;
+            expect(sum(a, b)).toEqual(sum(b,a));
+        });
     });
 });
